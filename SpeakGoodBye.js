@@ -1,4 +1,4 @@
-(function(window) {
+(function() {
 
 var byeSpeaker = {}
 
@@ -14,5 +14,5 @@ var byeSpeaker = {}
 
   window.byeSpeaker = byeSpeaker;
 
-})(window);
+})();
 

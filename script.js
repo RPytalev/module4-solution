@@ -7,12 +7,12 @@ for (let name of names) {
   if (name.includes('J', 0) || name.includes('j', 0)) {
 
     byeSpeaker.name = name;
-    byeSpeaker.speak(byeSpeaker.name);
+    byeSpeaker.speak();
 
   } else {
 
     helloSpeaker.name = name;
-    helloSpeaker.speak(helloSpeaker.name);
+    helloSpeaker.speak();
   }
 }
 

@@ -1,4 +1,4 @@
-(function(window) {
+(function() {
 
 var helloSpeaker = {}
 
@@ -14,4 +14,4 @@ var helloSpeaker = {}
 
 window.helloSpeaker = helloSpeaker;
 
-})(window);
+})();
